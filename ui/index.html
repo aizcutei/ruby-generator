@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./style.min.css">
+        <title>Ruby Generator</title>
+    </head>
+    <body class="bg-[#ebebeb]">
+        <main class="container">
+            <div class="relative flex min-h-screen flex-col justify-center overflow-hidden bg-gray-50 py-6 sm:py-12">
+                <div class="absolute inset-0 bg-[#ebebeb]"></div>
+                <div id="card" class="transition duration-200 ease-in-out relative px-6 pt-10 pb-8 mx-auto w-3/4">
+                <div class="mx-auto max-w-md">
+                    <div class="text-center">
+                        <p class="text-2xl font-bold text-gray-600">Ruby Generator</p>
+                    </div>
+                    <div class="flex justify-items-center items-center">
+                        <input id="inputText" class="flex-1 my-8 shadow-sm text-center" value="そこではなしは終わりになった"/>
+                    </div>
+            
+                    <div id="card2" class="my-6 p-2 h-auto overflow-hidden">
+                        <code id="result" class="font-mono"></code>
+                    </div>
+            
+                    <div id="card2" class="my-6 p-2 h-auto overflow-hidden">
+                        <p id="showResult" class=""></p>
+                    </div>
+            
+                </div>
+                </div>
+            </div>
+        </main>
+
+
+        <script src="./script.min.js"></script>
+    </body>
+</html>
